@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js" defer></script>
+<title>Pokemon API Demo</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <form>
+                <div class="mb-3">
+                  <label for="pokemon" class="form-label">Pokemon Name</label>
+                  <input type="text" class="form-control" placeholder="Enter Pokemon Name">
+                </div>
+                <button onclick="loadData()" type="button" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 offset-md-4 mt-3">
+            <div class="card" style="width: 18rem;">
+                <img src="" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                  <li id= 'games' class="list-group-item">
+                  </li>
+                  <li id='moves' class="list-group-item">
+
+                  </li>
+                </ul>
+              </div>
+        </div>
+    </div>
+    
+
+    
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
